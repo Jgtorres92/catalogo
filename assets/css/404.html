@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Página no encontrada | Catálogo</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<style>
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .error-page {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+
+  .error-card {
+    background: #f8f1f1;
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    padding: 32px 24px;
+    max-width: 520px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .error-code {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #ff0000;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+  }
+
+  .error-card h2 {
+    margin: 0 0 10px;
+    color: #333;
+  }
+
+  .error-card p {
+    margin: 0 0 20px;
+    color: #666;
+    line-height: 1.6;
+  }
+
+  .actions {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 999px;
+    background: #ff0000;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.2s ease;
+  }
+
+  .btn:hover {
+    transform: translateY(-2px);
+  }
+
+  .btn-secondary {
+    background: #444;
+  }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <h1>ERROR 404</h1>
+  <p>Lo sentimos, la página que buscas no está disponible.</p>
+</header>
+
+<main class="error-page">
+  <section class="error-card">
+    <div class="error-code">404</div>
+    <h2>Página no encontrada</h2>
+    <p>La dirección solicitada no existe o fue movida. Puedes regresar al catálogo principal y seguir explorando nuestros productos.</p>
+    <div class="actions">
+      <a class="btn" href="cata.html">Volver al catálogo</a>
+      <a class="btn btn-secondary" href="mailto:soporte@tienda.com">Contactar soporte</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>© 2026 Tienda de Electrodomésticos</p>
+  <p>Gracias por visitar nuestro sitio.</p>
+</footer>
+</body>
+</html>
